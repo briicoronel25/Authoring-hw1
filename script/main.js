@@ -72,14 +72,15 @@ var theImages = document.querySelectorAll('.image-holder'),
     }
 
     function closeLightbox(){
-      //debugger;
+      debugger;
       // reset all the lightbox content, close the lightbox,
         //document.body.style.overflow = "auto";
         //console.log("trying to close");
         let lightbox = document.querySelector('.lightbox');
-        let lightboxImg = lightbox.querySelector('img');
-        let lightboxDesc = lightbox.querySelector('p');
-        lightbox.style.display = "block";
+        //let lightboxImg = lightbox.querySelector('img');
+        //let lightboxDesc = lightbox.querySelector('p');
+        lightbox.style.display = "none";
+        document.body.style.overflow = 'scroll';
         //lightboxImg.src = "";
         //lightboxDesc.innerHTML = "";
       // Homework

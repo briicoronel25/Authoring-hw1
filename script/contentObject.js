@@ -11,6 +11,15 @@ var dynamicContent = {
 				"spring_4.jpg",
 				"spring_5.jpeg",
 				"spring_6.jpg"
+			],
+
+			imageDescription : [
+				'Cute flowers and butterflies',
+				'cute little chicken',
+				'Nice flowers',
+				'Red Flowers',
+				'Violet flowers',
+				'One big flower'
 			]
 		},
 
@@ -26,6 +35,15 @@ var dynamicContent = {
 				"summer_4.jpg",
 				"summer_5.jpg",
 				"summer_6.jpg"
+			],
+
+			imageDescription : [
+				'Colorful chairs',
+				'Sleepy dog',
+				'Coconut',
+				'Beach',
+				'Palm',
+				'Ball in the beach'
 			]
 		},
 
@@ -41,6 +59,15 @@ var dynamicContent = {
 				"autumn_4.jpg",
 				"autumn_5.jpg",
 				"autumn_6.jpg"
+			],
+
+			imageDescription : [
+				'Orange leaves',
+				'Pumpkin',
+				'Looking at the sky',
+				'Yellow leaves',
+				'Beautiful view',
+				'Great autumn view'
 			]
 		},
 
@@ -56,6 +83,15 @@ var dynamicContent = {
 				"winter_4.jpeg",
 				"winter_5.jpg",
 				"winter_6.jpeg"
+			],
+
+			imageDescription : [
+				'Purple light',
+				'Snowman',
+				'Kids playing',
+				'Sun light',
+				'More snow',
+				'Snowboard'
 			]
 		}
 	};
