@@ -27,7 +27,7 @@ var theImages = document.querySelectorAll('.image-holder'),
         newSubImg.dataset.index = index;
 
         //add some event handling
-        newSubImg.addEventListener('click', function(){popLightbox(index, objectIndex);})
+         newSubImg.addEventListener('click', function(){popLightbox(index, objectIndex);}, false);
 
         // append it to the container
         subImages.appendChild(newSubImg);
@@ -56,6 +56,7 @@ var theImages = document.querySelectorAll('.image-holder'),
       window.scrollTo(0, 0);
       document.body.style.overflow='hidden';
 
+      // turn on the lightbox
       let lightbox = document.querySelector('.lightbox');
         lightbox.style.display = 'block';
 
@@ -69,9 +70,20 @@ var theImages = document.querySelectorAll('.image-holder'),
 
       lightboxClose.addEventListener('click', closeLightbox, false);
     }
+
     function closeLightbox(){
-      debugger;
+      //debugger;
+      // reset all the lightbox content, close the lightbox,
+        //document.body.style.overflow = "auto";
+        //console.log("trying to close");
+        let lightbox = document.querySelector('.lightbox');
+        let lightboxImg = lightbox.querySelector('img');
+        let lightboxDesc = lightbox.querySelector('p');
+        lightbox.style.display = "block";
+        //lightboxImg.src = "";
+        //lightboxDesc.innerHTML = "";
       // Homework
+
     }
     // initialize the app
     // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
